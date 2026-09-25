@@ -1,0 +1,28 @@
+---
+title: "Jasiek"
+---
+
+I am finishing my MSc in Mathematics and Foundations of
+Computer Science at the University of Oxford.
+
+## Research interests
+
+I will describe my research interests here.
+
+## Dissertation
+
+I will introduce my master's dissertation here.
+
+## Writing
+
+This website will also contain mathematical notes and essays.
+
+## A mathematical example
+
+The identity $e^{i\pi} + 1 = 0$ connects several fundamental constants.
+
+A displayed equation occupies its own line:
+
+$$
+\sum_{k=1}^{n} k = \frac{n(n+1)}{2}.
+$$
