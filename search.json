@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jasiek",
+    "section": "",
+    "text": "I am finishing my MSc in Mathematics and Foundations of Computer Science at the University of Oxford."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Jasiek",
+    "section": "Research interests",
+    "text": "Research interests\nI will describe my research interests here."
+  },
+  {
+    "objectID": "index.html#dissertation",
+    "href": "index.html#dissertation",
+    "title": "Jasiek",
+    "section": "Dissertation",
+    "text": "Dissertation\nI will introduce my master’s dissertation here."
+  },
+  {
+    "objectID": "index.html#writing",
+    "href": "index.html#writing",
+    "title": "Jasiek",
+    "section": "Writing",
+    "text": "Writing\nThis website will also contain mathematical notes and essays."
+  },
+  {
+    "objectID": "index.html#a-mathematical-example",
+    "href": "index.html#a-mathematical-example",
+    "title": "Jasiek",
+    "section": "A mathematical example",
+    "text": "A mathematical example\nThe identity \\(e^{i\\pi} + 1 = 0\\) connects several fundamental constants.\nA displayed equation occupies its own line:\n\\[\n\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}.\n\\]"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
