@@ -74,35 +74,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -150,8 +121,6 @@ window.Quarto = {
   <ul>
   <li><a href="#research-interests" id="toc-research-interests" class="nav-link active" data-scroll-target="#research-interests">Research interests</a></li>
   <li><a href="#dissertation" id="toc-dissertation" class="nav-link" data-scroll-target="#dissertation">Dissertation</a></li>
-  <li><a href="#writing" id="toc-writing" class="nav-link" data-scroll-target="#writing">Writing</a></li>
-  <li><a href="#a-mathematical-example" id="toc-a-mathematical-example" class="nav-link" data-scroll-target="#a-mathematical-example">A mathematical example</a></li>
   </ul>
 </nav>
     </div>
@@ -180,23 +149,11 @@ window.Quarto = {
 <p>I am finishing my MSc in Mathematics and Foundations of Computer Science at the University of Oxford.</p>
 <section id="research-interests" class="level2">
 <h2 class="anchored" data-anchor-id="research-interests">Research interests</h2>
-<p>I will describe my research interests here.</p>
+<p>I am interested in the mathematical foundations of programming language semantics, particularly how we formalise and reason about program behaviour. More broadly, my interests include mathematical logic and its connections to theoretical computer science, including computability theory.</p>
 </section>
 <section id="dissertation" class="level2">
 <h2 class="anchored" data-anchor-id="dissertation">Dissertation</h2>
-<p>I will introduce my master’s dissertation here.</p>
-</section>
-<section id="writing" class="level2">
-<h2 class="anchored" data-anchor-id="writing">Writing</h2>
-<p>This website will also contain mathematical notes and essays.</p>
-</section>
-<section id="a-mathematical-example" class="level2">
-<h2 class="anchored" data-anchor-id="a-mathematical-example">A mathematical example</h2>
-<p>The identity <span class="math inline">\(e^{i\pi} + 1 = 0\)</span> connects several fundamental constants.</p>
-<p>A displayed equation occupies its own line:</p>
-<p><span class="math display">\[
-\sum_{k=1}^{n} k = \frac{n(n+1)}{2}.
-\]</span></p>
+<p>My master’s dissertation concerns contextual equivalence in simply typed lambda calculi: when can two terms be considered indistinguishable by the observations available to surrounding programs? <a href="files/dissertation.pdf">Read my dissertation (PDF)</a></p>
 
 
 </section>
@@ -275,7 +232,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/jangalekk\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

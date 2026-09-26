@@ -11,28 +11,14 @@
     "href": "index.html#research-interests",
     "title": "Jasiek",
     "section": "Research interests",
-    "text": "Research interests\nI will describe my research interests here."
+    "text": "Research interests\nI am interested in the mathematical foundations of programming language semantics, particularly how we formalise and reason about program behaviour. More broadly, my interests include mathematical logic and its connections to theoretical computer science, including computability theory."
   },
   {
     "objectID": "index.html#dissertation",
     "href": "index.html#dissertation",
     "title": "Jasiek",
     "section": "Dissertation",
-    "text": "Dissertation\nI will introduce my master’s dissertation here."
-  },
-  {
-    "objectID": "index.html#writing",
-    "href": "index.html#writing",
-    "title": "Jasiek",
-    "section": "Writing",
-    "text": "Writing\nThis website will also contain mathematical notes and essays."
-  },
-  {
-    "objectID": "index.html#a-mathematical-example",
-    "href": "index.html#a-mathematical-example",
-    "title": "Jasiek",
-    "section": "A mathematical example",
-    "text": "A mathematical example\nThe identity \\(e^{i\\pi} + 1 = 0\\) connects several fundamental constants.\nA displayed equation occupies its own line:\n\\[\n\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}.\n\\]"
+    "text": "Dissertation\nMy master’s dissertation concerns contextual equivalence in simply typed lambda calculi: when can two terms be considered indistinguishable by the observations available to surrounding programs? Read my dissertation (PDF)"
   },
   {
     "objectID": "about.html",
