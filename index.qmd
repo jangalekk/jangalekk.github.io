@@ -1,5 +1,7 @@
 ---
 title: "Jasiek"
+aliases:
+  - about.html
 ---
 
 I am finishing my MSc in Mathematics and Foundations of Computer Science at the University of Oxford.
