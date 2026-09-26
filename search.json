@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Teaching information and materials will be added here."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Posts will be added here soon."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jasiek",
@@ -19,12 +33,5 @@
     "title": "Jasiek",
     "section": "Dissertation",
     "text": "Dissertation\nMy master’s dissertation concerns contextual equivalence in simply typed lambda calculi: when can two terms be considered indistinguishable by the observations available to surrounding programs? Read my dissertation (PDF)"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   }
 ]
