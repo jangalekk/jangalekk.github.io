@@ -1,1 +1,44 @@
 /* css styles */
+
+.about-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 12rem;
+  gap: 2rem;
+  align-items: start;
+  margin-block: 1rem 2rem;
+}
+
+.about-intro-text > :last-child,
+.about-intro-photo p {
+  margin-bottom: 0;
+}
+
+.about-portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.interest-columns > ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 2rem;
+}
+
+@media (max-width: 767.98px) {
+  .interest-columns > ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .about-intro {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .about-intro-photo {
+    width: min(100%, 12rem);
+  }
+}

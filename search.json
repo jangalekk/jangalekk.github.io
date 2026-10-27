@@ -1,37 +1,44 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "random.html",
+    "href": "random.html",
+    "title": "My random collection of pictures from nature and beyond.",
     "section": "",
-    "text": "Teaching information and materials will be added here."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Posts will be added here soon."
+    "text": "When you spend most of the time submerged in abstraction,\n\n\n\n\n\n\n\nit is important to do something down to earth.\n\n\n\n\n\n\n\n\n\nBaking bread.\n\n\n\n\n\n\n\nView from Chata Socjologa in Bieszczady Mountains."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Jasiek",
+    "title": "Jan Galek",
     "section": "",
-    "text": "I am finishing my MSc in Mathematics and Foundations of Computer Science at the University of Oxford."
+    "text": "Hi! My name is Jan. This September I completed MSc in Mathematics and Foundations of Computer Science at the University of Oxford. Before I obtained my BSc in Mathematics and Philosophy at the University of Warwick.\nI am primarily interested in the mathematical foundations of programming language semantics, particularly how we formalise and reason about program behaviour. My brief academic profile includes the following.\n\n\nTheoretical computer science\n\ndenotational semantics\n\\(\\lambda\\)-calculus\ntype theory\nformal verification\n\nMathematics\n\nmathematical logic\ncategory theory\ngeneral topology\n\n\n\nTake a look on my projects site to see more!"
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Jasiek",
-    "section": "Research interests",
-    "text": "Research interests\nI am interested in the mathematical foundations of programming language semantics, particularly how we formalise and reason about program behaviour. More broadly, my interests include mathematical logic and its connections to theoretical computer science, including computability theory."
+    "objectID": "index.html#who-i-am",
+    "href": "index.html#who-i-am",
+    "title": "Jan Galek",
+    "section": "",
+    "text": "Hi! My name is Jan. This September I completed MSc in Mathematics and Foundations of Computer Science at the University of Oxford. Before I obtained my BSc in Mathematics and Philosophy at the University of Warwick.\nI am primarily interested in the mathematical foundations of programming language semantics, particularly how we formalise and reason about program behaviour. My brief academic profile includes the following.\n\n\nTheoretical computer science\n\ndenotational semantics\n\\(\\lambda\\)-calculus\ntype theory\nformal verification\n\nMathematics\n\nmathematical logic\ncategory theory\ngeneral topology\n\n\n\nTake a look on my projects site to see more!"
   },
   {
-    "objectID": "index.html#dissertation",
-    "href": "index.html#dissertation",
-    "title": "Jasiek",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here you can find an overview of some of the projects I worked on over the past year."
+  },
+  {
+    "objectID": "projects.html#dissertation",
+    "href": "projects.html#dissertation",
+    "title": "Projects",
     "section": "Dissertation",
-    "text": "Dissertation\nMy master’s dissertation concerns contextual equivalence in simply typed lambda calculi: when can two terms be considered indistinguishable by the observations available to surrounding programs? Read my dissertation (PDF)"
+    "text": "Dissertation\nMy master’s dissertation concerns contextual equivalence in simply typed lambda calculi: when can two terms be considered indistinguishable by the observations available to surrounding programs? You can read it here (PDF)."
+  },
+  {
+    "objectID": "projects.html#mfocs-mini-projects",
+    "href": "projects.html#mfocs-mini-projects",
+    "title": "Projects",
+    "section": "MFoCS mini-projects",
+    "text": "MFoCS mini-projects"
   }
 ]
