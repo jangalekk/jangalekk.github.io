@@ -1,0 +1,36 @@
+---
+title: "Projects"
+toc: false
+---
+Here you can find an overview of some of the projects I worked on over the past year at Oxford.
+
+## Dissertation
+Programming language semantics sits at a fascinating intersection of logic, mathematics, and computer science. My master's dissertation explores *contextual equivalence* in simply typed lambda calculi: when can two programs be considered indistinguishable by any surrounding program?
+
+While the question sounds simple, answering it is surprisingly tricky, since the definition requires considering infinitely many possible program contexts. My dissertation investigates ways around this difficulty, drawing on ideas from syntax, denotational semantics, and type theory. In particular, I construct a finite mathematical model that allows us to decide contextual equivalence for a class of simply typed languages, and develop a general framework using *retractions* to reduce questions about complicated higher-order types to simpler ones. I also explore the limits of these techniques in more expressive languages.
+
+The preliminary chapters are also intended as an introduction for anyone interested in the topic, bringing together key ideas and results that are otherwise scattered across the literature. [You can read the dissertation here (PDF).](files/dissertation.pdf)
+
+
+## MFoCS mini-projects
+[The MSc in Mathematics and Foundations of Computer Science (MFoCS)](https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematics-and-foundations-of-computer-science) at Oxford offers a wide range of challenging but incredibly rewarding courses in pure mathematics and theoretical computer science. Much of the assessment takes the form of *mini-projects*, which gave us the freedom to explore mathematical ideas beyond the lecture material, work through more substantial problems, and develop our own mathematical exposition. Below are a few of the projects I particularly enjoyed working on.
+
+### Categories, Proofs and Processes
+
++ [tasks](files/CPP_tasks.pdf)
++ [miniproject](files/CPP_solutions.pdf) 
+
+### Lambda Calculus and Types
+
++ [tasks](files/LCaT_tasks.pdf)
++ [miniproject](files/LCaT_solutions.pdf)
+
+### Analytic Topology
+
++ [tasks](files/AT_tasks.pdf)
++ [miniproject](files/AT_solutions.pdf)
+
+### Applied Category Theory
+
++ [tasks](files/ACT_tasks.pdf)
++ [miniproject](files/ACT_solutions.pdf)

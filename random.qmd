@@ -1,0 +1,18 @@
+---
+title: "My random collection of pictures from nature and beyond."
+toc: false
+---
+
+
+
+::: {layout-ncol=2}
+
+![When you spend most of the time submerged in abstraction,](images/jakilof.jpeg){width=100%}
+
+![it is important to do something down to earth.](images/kilof.jpeg){width=100%}
+
+![Baking bread.](images/chlleb.jpeg){width=100%}
+
+![View from Chata Socjologa in Bieszczady Mountains.](images/ladne.jpeg){width=100%}
+
+:::

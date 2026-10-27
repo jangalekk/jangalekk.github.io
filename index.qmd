@@ -1,15 +1,25 @@
 ---
-title: "Jasiek"
+title: "Jan Galek"
+toc: false
 aliases:
   - about.html
 ---
+## Bio
 
-I am finishing my MSc in Mathematics and Foundations of Computer Science at the University of Oxford.
+::::: {.about-intro}
+:::: {.about-intro-text}
+Hi, I’m Jan! I completed an MSc in Mathematics and Foundations of Computer Science at the University of Oxford in September 2026, where I wrote my dissertation under the supervision of [Professor Andrzej Murawski](https://www.cs.ox.ac.uk/andrzej.murawski/). Before that, I earned a BSc in Mathematics and Philosophy from the University of Warwick.
 
-## Research interests
+My interests lie at the intersection of theoretical computer science and pure mathematics. I'm particularly fascinated by programming language semantics: how we can use mathematical structures to describe computation and reason about the behaviour of programs. Along the way, I enjoy exploring connections with mathematical logic, type theory, category theory, and topology.
 
-I am interested in the mathematical foundations of programming language semantics, particularly how we formalise and reason about program behaviour. More broadly, my interests include mathematical logic and its connections to theoretical computer science, including computability theory.
+You can find more about my work, including my master's dissertation on contextual equivalence, on my **Projects** page.
+::::
 
-## Dissertation
+::: {.about-intro-photo}
+![](images/toja.jpg){.about-portrait fig-alt="Portrait of Jan Galek"}
+:::
+:::::
+My CV is available [here](files/CV_Jan_Galek.pdf).
 
-My master's dissertation concerns contextual equivalence in simply typed lambda calculi: when can two terms be considered indistinguishable by the observations available to surrounding programs? [Read my dissertation (PDF)](files/dissertation.pdf)
+Email: jangalekk at gmail.com.
+
