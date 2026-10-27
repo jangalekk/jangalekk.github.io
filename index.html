@@ -74,40 +74,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -142,15 +113,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#who-i-am" id="toc-who-i-am" class="nav-link active" data-scroll-target="#who-i-am">Who I am</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -177,31 +140,24 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="who-i-am">Who I am</h2>
 <div class="about-intro">
 <div class="about-intro-text">
-<p>Hi! My name is Jan.&nbsp;This September I completed MSc in Mathematics and Foundations of Computer Science at the University of Oxford. Before I obtained my BSc in Mathematics and Philosophy at the University of Warwick.</p>
-<p>I am primarily interested in the mathematical foundations of programming language semantics, particularly how we formalise and reason about program behaviour. My brief academic profile includes the following.</p>
-<div class="interest-columns">
-<ul>
-<li>Theoretical computer science
-<ul>
-<li>denotational semantics</li>
-<li><span class="math inline">\(\lambda\)</span>-calculus</li>
-<li>type theory</li>
-<li>formal verification</li>
-</ul></li>
-<li>Mathematics
-<ul>
-<li>mathematical logic</li>
-<li>category theory</li>
-<li>general topology</li>
-</ul></li>
-</ul>
-</div>
-<p>Take a look on my projects site to see more!</p>
+<p>Hi, I’m Jan! In September 2026, I completed an MSc in Mathematics and Foundations of Computer Science at the University of Oxford, following a BSc in Mathematics and Philosophy at the University of Warwick.</p>
+<p>My interests lie at the intersection of theoretical computer science and pure mathematics. I’m particularly fascinated by programming language semantics: how we can use mathematical structures to describe computation and reason about the behaviour of programs. Along the way, I enjoy exploring connections with mathematical logic, type theory, category theory, and topology.</p>
+<p>You can find more about my work, including my master’s dissertation on contextual equivalence, on my <strong>Projects</strong> page.</p>
 </div>
 <div class="about-intro-photo">
 <p><img src="images/toja.jpg" class="about-portrait img-fluid" alt="Portrait of Jan Galek"></p>
 </div>
 </div>
+</section>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<p>Email: <em>to be added</em>.</p>
+<!-- Replace the line above with: Email: [your.email@example.com](mailto:your.email@example.com) -->
+</section>
+<section id="cv" class="level2">
+<h2 class="anchored" data-anchor-id="cv">CV</h2>
+<p>My CV will be available here soon.</p>
+<!-- Save your CV as files/cv.pdf, then replace the line above with: [Download my CV (PDF)](files/cv.pdf) -->
 
 
 </section>
